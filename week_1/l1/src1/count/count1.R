@@ -1,0 +1,7 @@
+mario <- readline("Enter votes for Mario: ")
+peach <- readline("Enter votes for Peach: ")
+bowser <- readline("Enter votes for Bowser: ")
+
+total <- mario + peach + bowser
+
+print(paste("Total votes:", total))
