@@ -4,9 +4,9 @@ Start Date: Mon Jul  1 18:39:38 2024
 
 ### **Table of Contents**
 ### [Week 1: Representing Data](https://cs50.harvard.edu/r/2024/weeks/1/)
-- [Pit Stop]()
-- [art.frame]()
-- [Big 5]()
+- [Pit Stop](https://github.com/Neeraj303/CS50R/tree/main/week_1/pitstop)
+- [art.frame](https://github.com/Neeraj303/CS50R/tree/main/week_1/art.frame)
+- [Big 5](https://github.com/Neeraj303/CS50R/tree/main/week_1/big5)
 
 
 ### [Week 2: Transforming Data](https://cs50.harvard.edu/r/2024/weeks/2/)
