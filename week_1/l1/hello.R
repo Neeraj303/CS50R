@@ -8,12 +8,15 @@
 # getwd()                   : to get the current working directory
 # setwd('path/to/folder')   : to change to specific directory
 # file.edit('path/to/file') : to open a file and edit
+# file.choose()             : opens the GUI to select file
 # source('path/to/file')    : to run an file in Rconsole
 # list.files()              : to view the files in the current folder\directory
 # ls()                      : to check all the current objects
 # rm(list = ls())           : to remove all the object
 # isntall.packages('name')  : to install packages 
 # library('name')           : to load the library
+
+#setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) : this sets the directory where your current file is stored
 
 # Key commands
 # Ctrl + 2          : to move to Rconsole
