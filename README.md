@@ -40,3 +40,6 @@ Start Date: Mon Jul  1 18:39:38 2024
 - []()
 
 ### [Final Project](https://cs50.harvard.edu/r/2024/project)
+
+
+*Please note that this repository is for storing my projects and files from Harvard University's CS50P course. It is not meant for sharing answers or encouraging academic dishonesty. If you are currently enrolled, please complete the assignments independently and refer to the course materials.*
