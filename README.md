@@ -1,10 +1,12 @@
 ## [CS50’s Introduction to Programming with R](https://cs50.harvard.edu/r/2024/) 2024 Solutions
 
+Start Date: Mon Jul  1 18:39:38 2024
+
 ### **Table of Contents**
 ### [Week 1: Representing Data](https://cs50.harvard.edu/r/2024/weeks/1/)
-- []()
-- []()
-- []()
+- [Pit Stop]()
+- [art.frame]()
+- [Big 5]()
 
 
 ### [Week 2: Transforming Data](https://cs50.harvard.edu/r/2024/weeks/2/)
