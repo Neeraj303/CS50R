@@ -20,24 +20,21 @@ Start Date: Mon Jul  1 18:39:38 2024
 - [Variations](https://github.com/Neeraj303/CS50R/tree/main/week_3/variations)
 
 ### [Week 4: Tidying Data](https://cs50.harvard.edu/r/2024/weeks/4/)
-- []()
-- []()
-- []()
+- [Northwest Air]()
+- [Zeruda no Densetsu]()
+
 
 ### [Week 5: Visualizing Data](https://cs50.harvard.edu/r/2024/weeks/5/)
-- []()
-- []()
-- []()
+- [Parked Out By The Lake]()
+- [Exploratory Data Analysis]()
+
 
 ### [Week 6: Testing Programs](https://cs50.harvard.edu/r/2024/weeks/6/)
-- []()
-- []()
-- []()
+- [Measure Twice]()
+- [Can You Believe in Machines?]()
+
 
 ### [Week 7: Packaging Programs](https://cs50.harvard.edu/r/2024/weeks/7/)
-- []()
-- []()
-- []()
 
 ### [Final Project](https://cs50.harvard.edu/r/2024/project)
 
