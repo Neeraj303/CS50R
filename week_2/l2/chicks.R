@@ -6,8 +6,8 @@ ncol(chicks)
 
 colnames(chicks)
 
-mean_weight <- mean(chicks$weight, na.rm = TRUE)
-print(paste("The avergae weight:", mean_weight))
+mean_weight <- mean(chicks$weight, na.rm = TRUE) # to remove the NA value
+print(paste('The avergae weight:', mean_weight, 'grams'))
 
 # to get multiple rows
 casein_chicks <- chicks[c(1,2,3), ]
@@ -39,7 +39,7 @@ soybean_chicks <- subset(chicks, feed == 'soybean')
 soybean_chicks
 
 rownames(chicks)
-rownames(chicks) <- NULL
+rownames(chicks) <- NULL # to rename row index
 rownames(chicks)
 
 
@@ -47,7 +47,7 @@ rownames(chicks)
 sum(is.na(chicks$weight))
 
 
-################################################################################
+###########################  feed.R  ##########################################
 chicks <- read.csv('chicks.csv')
 chicks <- subset(chicks, !is.na(weight))
 
@@ -61,6 +61,7 @@ formated_options <- paste0(1:length(feed_options), ". ", feed_options)
 cat(formated_options, sep ="\n")
 feed_choice <- as.integer(readline("Feed type:")) 
 
+# conditionals
 if (feed_choice > 6 || feed_choice < 1) {
   print("Invalid Choice.")
 } else {
@@ -68,7 +69,7 @@ if (feed_choice > 6 || feed_choice < 1) {
   print(subset(chicks, feed == selected_feed))
 }
 
-###############################################################################
+###############################  sales.R  ######################################
 Q1 <- read.csv('Q1.csv')
 Q1$quarter <- "Q1"
 View(Q1)
@@ -85,6 +86,7 @@ Q4$quarter <- "Q4"
 total_sales <- rbind(Q1, Q2, Q3, Q4)
 View(total_sales)
 
+# conditional that works with vector
 total_sales$value <- ifelse(total_sales$sale_amount > 100, "High Value", "Regular")
 View(total_sales)
 
