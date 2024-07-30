@@ -32,6 +32,7 @@
 # Ctrl + Shift + S  : to run the whole file without eco
 # Ctrl + c          : to stop the command from executing
 
+
 name <- readline("What is your name? ")
 b <- paste("Hello, ", name, sep="")
 c <- paste0("Hello, ", name) # this default have sep =""
