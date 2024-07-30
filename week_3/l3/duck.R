@@ -22,6 +22,6 @@ while (i <= 3) {
 
 # 3. For
 
-for (i in 1:3 { # i iterates over the vector
+for (i in 1:3) { # i iterates over the vector
   cat('quack\n')
 }

@@ -25,9 +25,11 @@ print(total)
 
 
 ### In python axis=0 for columns, axis=1 for rows
+### FUNCTIONAL PROGRAMMING
 ### In R, MARGIN=1 for rows, MARGIN=2 for columns
 
 total_votes <- apply(votes, MARGIN=1, FUN = sum) #sum function across rows
+apply(votes, MARGIN=2, FUN = sum) # sum across columns
 
 # for sorting it decreasing order
 sort(total_votes, decreasing = TRUE)
