@@ -15,9 +15,9 @@ Start Date: Mon Jul  1 18:39:38 2024
 - [On Time](https://github.com/Neeraj303/CS50R/tree/main/week_2/ontime)
 
 ### [Week 3: Applying Functions](https://cs50.harvard.edu/r/2024/weeks/3/)
-- []()
-- []()
-- []()
+- [PDX Carpet](https://github.com/Neeraj303/CS50R/tree/main/week_3/carpet)
+- [Happy](https://github.com/Neeraj303/CS50R/tree/main/week_3/happy)
+- [Variations](https://github.com/Neeraj303/CS50R/tree/main/week_3/variations)
 
 ### [Week 4: Tidying Data](https://cs50.harvard.edu/r/2024/weeks/4/)
 - []()
