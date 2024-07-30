@@ -22,7 +22,7 @@ votes <- read.csv('votes.csv')
  write.csv(votes, 'total.csv', row.names=FALSE)
  
  # How to know th names of row and columns
- colnames(votes) # to knwo all the column names
+ colnames(votes) # to know all the column names
  rownames(votes) # to access the row names 
 
  

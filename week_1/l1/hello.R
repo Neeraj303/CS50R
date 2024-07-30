@@ -3,18 +3,22 @@
 
 
 # Console Commands
-# file.create("filename.R") : to create a "filename" R file
-# dir.create('filename')    : to create a new directory
-# getwd()                   : to get the current working directory
-# setwd('path/to/folder')   : to change to specific directory
-# file.edit('path/to/file') : to open a file and edit
-# file.choose()             : opens the GUI to select file
-# source('path/to/file')    : to run an file in Rconsole
-# list.files()              : to view the files in the current folder\directory
-# ls()                      : to check all the current objects
-# rm(list = ls())           : to remove all the object
-# isntall.packages('name')  : to install packages 
-# library('name')           : to load the library
+# dir.create('filename')                       : to create a new directory
+# unlink("folder", recursive = TRUE)           : remove all the sub-folder inside the "folder"
+# getwd()                                      : to get the current working directory
+# setwd('path/to/folder')                      : to change to specific directory
+# file.create("filename.R")                    : to create a "filename" R file
+# file.rename("helo.R", "hello.R")             : to rename a file 
+# file.edit('path/to/file')                    : to open a file and edit
+# file.choose()                                : opens the GUI to select file
+# file.remove()                                : to remove any file
+# source('path/to/file')                       : to run an file in Rconsole
+# list.files() or dir()                        : to view the files in the current folder\directory
+# ls()                                         : to check all the current objects
+# rm(list = ls())                              : to remove all the object
+# isntall.packages('name')                     : to install packages 
+# library('name')                              : to load the library
+# ?files                                       : All commands
 
 #setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) : this sets the directory where your current file is stored
 

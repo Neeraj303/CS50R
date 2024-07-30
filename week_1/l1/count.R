@@ -1,3 +1,4 @@
+#readline default gives character type output
 n_vote <- as.integer(readline("Enter vote for Neeraj: ")) # Coercion
 a_vote <- as.integer(readline("Enter vote for akash: "))
 u_vote <- as.integer(readline("Enter vote for umang: "))
@@ -9,5 +10,5 @@ print(paste('Total Vote:', total_vote))
 
 # storage modes
 #1. Character, as.character()    
-#2. Double,    as.double ()
-#3. Integer,   as.integer()
+#2. Double,    as.double ()       refers to decimal number
+#3. Integer,   as.integer()       refers to whole number

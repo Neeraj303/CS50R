@@ -18,7 +18,7 @@ unique(voters[, "voter_category"]) # or unique(voters$voter_category)
 unique(voters$Q22)
 
 # Factors 
-factor(voters$Q21) # we observe unique categoy of data, for categorical data
+factor(voters$Q21) # we observe unique category of data, for categorical data
 factor(voters$Q21, label = c("?", "YES", "NO", "Unsure")) #give specific label to each label
 
 # Exclude
