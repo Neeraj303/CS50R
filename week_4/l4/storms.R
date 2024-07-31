@@ -10,7 +10,7 @@
 #install.packages('tidyverse')
 
 ############### to load packages
-#library('package_name')
+#library('package_name') or library(package_name)
 
 library('tidyverse')
 

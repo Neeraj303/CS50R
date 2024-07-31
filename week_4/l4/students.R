@@ -21,6 +21,7 @@ students <- pivot_wider(
   values_from = value          # where to get column values from
 )
 
+class(students$GPA) # the GPA column consists of character class
 students$GPA <- as.numeric(students$GPA) # to convert character to double
 
 students |>
