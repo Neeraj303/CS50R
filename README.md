@@ -20,8 +20,8 @@ Start Date: Mon Jul  1 18:39:38 2024
 - [Variations](https://github.com/Neeraj303/CS50R/tree/main/week_3/variations)
 
 ### [Week 4: Tidying Data](https://cs50.harvard.edu/r/2024/weeks/4/)
-- [Northwest Air]()
-- [Zeruda no Densetsu]()
+- [Northwest Air](https://github.com/Neeraj303/CS50R/tree/main/week_4/air)
+- [Zeruda no Densetsu](https://github.com/Neeraj303/CS50R/tree/main/week_4/zelda)
 
 
 ### [Week 5: Visualizing Data](https://cs50.harvard.edu/r/2024/weeks/5/)
