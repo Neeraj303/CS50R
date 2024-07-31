@@ -32,6 +32,8 @@
 # Ctrl + Shift + S  : to run the whole file without eco
 # Ctrl + c          : to stop the command from executing
 
+# install.packages('package_name')
+# library('package_name')
 
 name <- readline("What is your name? ")
 b <- paste("Hello, ", name, sep="")
