@@ -8,6 +8,7 @@
 # getwd()                                      : to get the current working directory
 # setwd('path/to/folder')                      : to change to specific directory
 # file.create("filename.R")                    : to create a "filename" R file
+# file.copy(from = '', to = '')                : to copy a file
 # file.rename("helo.R", "hello.R")             : to rename a file 
 # file.edit('path/to/file')                    : to open a file and edit
 # file.choose()                                : opens the GUI to select file
@@ -20,7 +21,7 @@
 # library('name')                              : to load the library
 # ?files                                       : All commands
 
-#setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) : this sets the directory where your current file is stored
+# setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) : this sets the directory where your current file is stored
 
 # Key commands
 # Ctrl + 2          : to move to Rconsole
@@ -34,6 +35,9 @@
 
 # install.packages('package_name')
 # library('package_name')
+# library('magrittr')               : to use pipe operator
+# library('tidyverse')              : read_csv('filename.csv') # to load csv as tibble
+# df <- df |> group_by(col1) |> group_by(col2, .add = TRUE)   :  to add 2 group by
 
 name <- readline("What is your name? ")
 b <- paste("Hello, ", name, sep="")
