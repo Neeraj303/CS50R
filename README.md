@@ -25,8 +25,8 @@ Start Date: Mon Jul  1 18:39:38 2024
 
 
 ### [Week 5: Visualizing Data](https://cs50.harvard.edu/r/2024/weeks/5/)
-- [Parked Out By The Lake]()
-- [Exploratory Data Analysis]()
+- [Parked Out By The Lake](https://github.com/Neeraj303/CS50R/tree/main/week_5/parked)
+- [Exploratory Data Analysis](https://github.com/Neeraj303/CS50R/tree/main/week_5/eda)
 
 
 ### [Week 6: Testing Programs](https://cs50.harvard.edu/r/2024/weeks/6/)
