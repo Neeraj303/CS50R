@@ -1,0 +1,45 @@
+---
+title: 'Votes Analysis'
+author: 'Neeraj Dhandia'
+output: 
+  html_document:
+    toc: true
+---
+ 
+# CS50R
+ 
+## Data Visualization
+ 
+### Loading library
+```{r}
+library('ggplot2')
+```
+
+### Loading Data
+Load the csv file for voting.
+Command to make word in _italics_. And this to make it **bold**
+```{r}
+votes <- read.csv('../votes.csv')
+votes
+```
+
+### Display the plot
+If you just want to see the output and not the code, set {r, echo=FALSE}
+```{r, echo = FALSE}
+ggplot(votes, aes(x = candidate, y = votes)) +
+  geom_col(aes(fill = candidate), show.legend = TRUE) + # to give color to each candidate
+  scale_fill_viridis_d('Candidate') +  # color blind friendly, and change scale title
+  scale_y_continuous(limits = c(0, 250)) +   # to add limit
+  labs(                               # to add labels
+    x = 'Candidates',
+    y = 'Votes',
+    title = 'Election Results'
+  ) + 
+  theme_classic()   # to add theme at the very end
+```
+
+### Conclusion
+In the end Mario got `r votes$votes[1]` votes. The total number of votes: **`r sum(votes$votes)`**.
+
+
+ 

@@ -1,0 +1,3 @@
+Data retrieved and modified from 538, https://github.com/fivethirtyeight/data.
+
+Data licensed under https://creativecommons.org/licenses/by/4.0/.
