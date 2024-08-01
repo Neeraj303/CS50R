@@ -17,7 +17,7 @@
 # list.files() or dir()                        : to view the files in the current folder\directory
 # ls()                                         : to check all the current objects
 # rm(list = ls())                              : to remove all the object
-# isntall.packages('name')                     : to install packages 
+# install.packages('name')                     : to install packages 
 # library('name')                              : to load the library
 # ?files                                       : All commands
 # file.edit('filename.Rmd')                    : to create a R markdown file
