@@ -1,0 +1,8 @@
+Package: ducksay
+Title: Duck Say
+Description: Say hello with a duck
+Version: 1.0
+Authors@R : person("Neeraj", "Dhandia", email = "neerajd@iisc.ac.in", role = c())
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
