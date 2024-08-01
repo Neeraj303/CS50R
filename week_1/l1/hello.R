@@ -13,13 +13,15 @@
 # file.edit('path/to/file')                    : to open a file and edit
 # file.choose()                                : opens the GUI to select file
 # file.remove()                                : to remove any file
-# source('path/to/file')                       : to run an file in Rconsole
+# source('path/to/file')                       : to run an file in R console
 # list.files() or dir()                        : to view the files in the current folder\directory
 # ls()                                         : to check all the current objects
 # rm(list = ls())                              : to remove all the object
 # isntall.packages('name')                     : to install packages 
 # library('name')                              : to load the library
 # ?files                                       : All commands
+# file.edit('filename.Rmd')                    : to create a R markdown file
+# ctrl + alt + i                               : to create a code block
 
 # setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) : this sets the directory where your current file is stored
 
@@ -38,6 +40,7 @@
 # library('magrittr')               : to use pipe operator
 # library('tidyverse')              : read_csv('filename.csv') # to load csv as tibble
 # df <- df |> group_by(col1) |> group_by(col2, .add = TRUE)   :  to add 2 group by
+# is.vector(), is.list()            : to check specific object
 
 name <- readline("What is your name? ")
 b <- paste("Hello, ", name, sep="")
