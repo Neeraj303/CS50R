@@ -58,7 +58,11 @@ average <- function(x) {
     return(NA)                               # this line is not executed
   }
   if (any(is.na(x))) {
-    warning()
+    warning("'x' contain one or more NA values.")
+    return(NA)
   }
   sum(x) / length(x)
 }
+
+average(c(1, 2, NA))
+average(c(1, 2, 3))
