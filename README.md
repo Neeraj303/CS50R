@@ -38,5 +38,6 @@ Start Date: Mon Jul  1 18:39:38 2024
 
 ### [Final Project](https://cs50.harvard.edu/r/2024/project)
 
+### [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FNeeraj303%2FCS50R&count_bg=%23C53DC8&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 *Please note that this repository is for storing my projects and files from Harvard University's CS50R course. It is not meant for sharing answers or encouraging academic dishonesty. If you are currently enrolled, please complete the assignments independently and refer to the course materials.*
